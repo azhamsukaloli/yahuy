@@ -121,8 +121,8 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 }
 
 yesBtn.addEventListener('click', () => {
-    title.innerHTML = "HORE!! i knew you would say vqsghvwegdsbjs";
-    document.querySelector('img').src = "https://media.tenor.com/gUiu1zyxfzYAAAAi/good-night-kiss-kiss.gif";
+    title.innerHTML = "cihuy qila imut xixixi cantik banget cii jadi suka deh🤭 #jokes qil🥰😭";
+    document.querySelector('img').src = "https://gifdb.com/images/high/ambatukam-with-edited-marine-corps-hat-ym9xcxihydk5qr0v.webp";
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
     bgMusic.play();
@@ -160,3 +160,4 @@ const handleButtonDodge = (e) => {
 noBtn.addEventListener('mouseover', handleButtonDodge);
 noBtn.addEventListener('touchstart', handleButtonDodge, { passive: false });
 noBtn.addEventListener('touchmove', (e) => e.preventDefault(), { passive: false });
+

@@ -2,7 +2,7 @@ const bgMusic = document.getElementById('bgMusic');
 
 // Auto-play music when page loads with lower volume
 window.addEventListener('load', () => {
-    bgMusic.volume = 0.5;  // Set volume to 30%
+    bgMusic.volume = 0.9;  // Set volume to 30%
     bgMusic.play().catch(console.log);
 });
 
@@ -121,7 +121,7 @@ function getFarPosition(containerRect, windowWidth, windowHeight, buttonWidth, b
 }
 
 yesBtn.addEventListener('click', () => {
-    title.innerHTML = "cihuy qila imut xixixi cantik banget cii jadi suka deh🤭 #jokes qil🥰😭";
+    title.innerHTML = "cihuy qila imut jadi pacar aku nih xixixi cantik banget cii jadi suka deh🤭 #jokes qil🥰😭";
     document.querySelector('img').src = "https://gifdb.com/images/high/ambatukam-with-edited-marine-corps-hat-ym9xcxihydk5qr0v.webp";
     noBtn.style.display = 'none';
     yesBtn.style.display = 'none';
@@ -160,5 +160,6 @@ const handleButtonDodge = (e) => {
 noBtn.addEventListener('mouseover', handleButtonDodge);
 noBtn.addEventListener('touchstart', handleButtonDodge, { passive: false });
 noBtn.addEventListener('touchmove', (e) => e.preventDefault(), { passive: false });
+
 
 
